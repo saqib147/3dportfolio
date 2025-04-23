@@ -6,10 +6,10 @@ const Button = ({text, className, id}) => {
     <a
     onClick={(e)=>{
       e.preventDefault()
-      const target = document.getElementById(id)
+      const target = document.getElementById('counter')
       if (target && id) {
         const offset = window.innerHeight*0.15;
-        const targetPosition = target.getBoundingClientRect().top + window.scrollY - offset;
+        const top = target.getBoundingClientRect().top + window.scrollY - offset;
         target.scrollIntoView({ top,  behavior: 'smooth' })
       }
     }}

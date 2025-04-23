@@ -27,20 +27,20 @@ const HeroLights = () => {
       />
 
       <primitive
-        object={new THREE.RectAreaLight('#A259FF', 6, 2, 3)}
-        position={[0, 1, 0]}
-        intensity={40}
+        object={new THREE.RectAreaLight('#A259FF', 6, 3, 5)}
+        position={[4, 1, -1]}
+        intensity={50}
         rotation={[-Math.PI / 4, Math.PI / 3.5, 0]}
       />
 
       <pointLight
-        position={[1, 3, 4]}
-        intensity={40}
+        position={[1, 1, 0]}
+        intensity={20}
         color="#0D0084"
       />
       <pointLight
         position={[1, 2, -1]}
-        intensity={30}
+        intensity={50}
         color="#0D0084"
       />
     </>

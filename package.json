@@ -19,6 +19,7 @@
     "gsap": "^3.12.7",
     "postcss-cli": "^11.0.1",
     "react": "^19.0.0",
+    "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",
     "react-responsive": "^10.0.1",
     "tailwindcss": "^4.1.4",
