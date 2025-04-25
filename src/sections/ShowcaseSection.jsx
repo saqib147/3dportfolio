@@ -30,7 +30,7 @@ const ShowcaseSection = () => {
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0 },
-      { opacity: 1, duration: 1 }
+      { opacity: 1,delay: 1, duration: 1 }
     );
   }, []);
   return (
@@ -56,18 +56,19 @@ const ShowcaseSection = () => {
 
           {/* Right */}
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={project2Ref}>
-              <div className="image-wrapper bg-[#ffefdb]">
-                <img src="/images/project2.png" />
-              </div>
-              <h2>Ecommerce Admin Dasboard using React</h2>
-            </div>
-            <div className="project" ref={project3Ref}>
+          <div className="project" ref={project2Ref}>
               <div className="image-wrapper bg-[#ffe7eb]">
                 <img src="/images/project3.png" />
               </div>
               <h2>Gadget Gizmo - An Ecommerce Tech Platform</h2>
             </div>
+            <div className="project" ref={project3Ref}>
+              <div className="image-wrapper bg-[#ffefdb]">
+                <img src="/images/project2.png" />
+              </div>
+              <h2>Ecommerce Admin Dasboard using React</h2>
+            </div>
+           
           </div>
         </div>
       </div>
