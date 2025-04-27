@@ -144,6 +144,49 @@ const navLinks = [
       rotation: [0, -Math.PI / 4, 0],
     },
   ];
+
+  const skillCards = [
+    {
+      description:
+        "I have solid experience in frontend development, specializing in building responsive, user-friendly interfaces with modern frameworks like React.js and styling libraries like Tailwind CSS.",
+      imgPath: "/images/skill1.png",
+      logoPath: "/images/logo1.png",
+      title: "Frontend Development",
+      date: "2022 - Present",
+      responsibilities: [
+        "Developed responsive web applications using React.js and Next.js.",
+        "Converted Figma and Adobe XD designs into pixel-perfect, fully functional web pages.",
+        "Optimized UI components for better performance, SEO, and accessibility.",
+      ],
+    },
+    {
+      description:
+        "My backend development experience includes building REST APIs, handling databases, and ensuring secure server-side operations using Node.js and MongoDB.",
+      imgPath: "/images/skill2.png",
+      logoPath: "/images/logo2.png",
+      title: "Backend Development",
+      date: "2022 - Present",
+      responsibilities: [
+        "Built and maintained RESTful APIs with Node.js and Express.js.",
+        "Designed database schemas and managed data with MongoDB Atlas.",
+        "Implemented authentication, authorization, and secure data handling.",
+      ],
+    },
+    {
+      description:
+        "As a full stack developer, I bridge the gap between frontend and backend, delivering complete web solutions with a focus on functionality, performance, and scalability.",
+      imgPath: "/images/skill3.png",
+      logoPath: "/images/logo3.png",
+      title: "Full Stack Development",
+      date: "2023 - Present",
+      responsibilities: [
+        "Integrated React frontends with Node.js/MongoDB backends seamlessly.",
+        "Handled full application deployments and version control using Git and hosting platforms.",
+        "Worked on improving API performance, reducing load times, and enhancing UX.",
+      ],
+    },
+  ];
+  
   
   const expCards = [
     {
@@ -276,6 +319,7 @@ const navLinks = [
     logoIconsList,
     counterItems,
     expCards,
+    skillCards,
     expLogos,
     testimonials,
     socialImgs,
