@@ -263,7 +263,7 @@ section {
   }
 
   .tech-card-content {
-    @apply flex flex-col md:justify-center items-center xl:gap-5 xl:h-[50vh] overflow-hidden relative z-10 group-hover:cursor-grab;
+    @apply flex flex-col md:justify-center items-center xl:gap-4 xl:h-[40vh] overflow-hidden relative z-10 group-hover:cursor-grab;
 
     & p {
       @apply text-lg 2xl:text-2xl pb-5 xl:pb-0 font-semibold text-white-50 text-center;
@@ -271,11 +271,11 @@ section {
   }
 
   .tech-grid {
-    @apply grid xl:grid-cols-4 md:grid-cols-4 grid-cols-1 xl:gap-16 md:gap-10 gap-5 mt-16;
+    @apply grid xl:grid-cols-4 md:grid-cols-4 grid-cols-1 xl:gap-12 md:gap-8 gap-4 mt-12;
   }
 
   .tech-icon-wrapper {
-    @apply flex justify-center items-center w-40 h-60 relative;
+    @apply flex justify-center items-center w-32 h-48 relative; /* Reduced size */
   }
 
   form {
