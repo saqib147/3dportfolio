@@ -145,47 +145,48 @@ const navLinks = [
     },
   ];
 
-  const skillCards = [
+ const skillCards = [
     {
       description:
-        "I have solid experience in frontend development, specializing in building responsive, user-friendly interfaces with modern frameworks like React.js and styling libraries like Tailwind CSS.",
-      imgPath: "/images/skill1.png",
+        "I have strong hands-on experience in frontend development, crafting dynamic, responsive, and highly optimized websites and web apps. I specialize in modern JavaScript frameworks like React.js and have worked extensively with Tailwind CSS, ensuring pixel-perfect UI implementations. I am passionate about creating seamless user experiences and maintaining code quality through best practices.",
       logoPath: "/images/logo1.png",
       title: "Frontend Development",
       date: "2022 - Present",
       responsibilities: [
         "Developed responsive web applications using React.js and Next.js.",
-        "Converted Figma and Adobe XD designs into pixel-perfect, fully functional web pages.",
-        "Optimized UI components for better performance, SEO, and accessibility.",
+        "Converted Figma and Adobe XD designs into interactive, pixel-perfect user interfaces.",
+        "Focused on web performance, accessibility (WCAG standards), and SEO optimization.",
+        "Integrated third-party libraries like Framer Motion and Headless UI for enhanced UX.",
       ],
     },
     {
       description:
-        "My backend development experience includes building REST APIs, handling databases, and ensuring secure server-side operations using Node.js and MongoDB.",
-      imgPath: "/images/skill2.png",
+        "I possess strong backend development skills, building scalable, secure, and efficient server-side applications. My experience spans developing RESTful APIs with Node.js, database management with MongoDB, and implementing server security measures. I focus on writing clean, modular backend code that supports smooth frontend integration.",
       logoPath: "/images/logo2.png",
       title: "Backend Development",
       date: "2022 - Present",
       responsibilities: [
-        "Built and maintained RESTful APIs with Node.js and Express.js.",
-        "Designed database schemas and managed data with MongoDB Atlas.",
-        "Implemented authentication, authorization, and secure data handling.",
+        "Created and managed REST APIs using Node.js, Express.js, and MongoDB.",
+        "Designed efficient, scalable database schemas and wrote optimized queries.",
+        "Implemented JWT authentication, role-based authorization, and API security protocols.",
+        "Handled server deployment tasks including environment setup and performance monitoring.",
       ],
     },
     {
       description:
-        "As a full stack developer, I bridge the gap between frontend and backend, delivering complete web solutions with a focus on functionality, performance, and scalability.",
-      imgPath: "/images/skill3.png",
+        "Combining both frontend and backend expertise, I deliver complete full-stack solutions tailored to project needs. I enjoy building apps from scratch, integrating APIs, managing databases, and ensuring a polished user experience. My workflow emphasizes version control, code reusability, and scalability to support future growth.",
       logoPath: "/images/logo3.png",
       title: "Full Stack Development",
       date: "2023 - Present",
       responsibilities: [
-        "Integrated React frontends with Node.js/MongoDB backends seamlessly.",
-        "Handled full application deployments and version control using Git and hosting platforms.",
-        "Worked on improving API performance, reducing load times, and enhancing UX.",
+        "Developed full-stack web applications using React.js for the frontend and Node.js/Express.js for the backend.",
+        "Seamlessly integrated frontend UI components with backend APIs.",
+        "Managed state with libraries like Redux and implemented efficient data fetching strategies.",
+        "Deployed applications using Vercel, Render, and other cloud hosting services.",
       ],
     },
   ];
+  
   
   
   const expCards = [
